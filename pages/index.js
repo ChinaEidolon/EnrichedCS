@@ -1,17 +1,19 @@
-// <<<<<<< HEAD
-import {NavBar} from "~/components/Navbar";
+// https://flowbite.com/docs/components/card/
 
+import {NavBar} from "~/components/Navbar";
+import {TeamCard} from "~/components/teamcard";
+
+//
 export default function Home() {
     // return <h1>Hi</h1>;
-    return (<NavBar />);
-// =======
-// import { NavBar } from "~/components/NavBar";
+    return (
+       <div>
+           <NavBar />
+           <TeamCard />
+       </div>
+
+        );
 }
-// export default function Home() {
-//     return (
-//         <>
-//             <NavBar />
-//         </>
-//     );
-// // >>>>>>> 6473a57cbb269d531ff152a4bd0842f157f318fa
-// }
+
+// import '../styles.css';
+
